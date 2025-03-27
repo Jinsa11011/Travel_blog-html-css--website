@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    padding: 20px 0;
+    border-bottom: 2px solid #000000; /* Adds a subtle separator */
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Travel Images */
+.travel-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* About Me Section */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.intro {
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Places Section */
+.places-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places-links img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.places-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Follow Me Section */
+.content {
+    margin: 50px 0;
+}
+
+/* Footer Section */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c7b7b7; /* Keeps footer dark for contrast */
+    padding: 15px 0;
+}
+
+.footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+}
