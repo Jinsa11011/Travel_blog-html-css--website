@@ -1,19 +1,19 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    background-color: #ffffff; 
+    color: #000000; 
     text-align: center;
 }
 
-/* Header Styling */
+
 header {
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    background-color: #ffffff; 
+    color: #000000; 
     padding: 20px 0;
-    border-bottom: 2px solid #000000; /* Adds a subtle separator */
+    border-bottom: 2px solid #000000; 
 }
 
 header h1 {
@@ -28,12 +28,12 @@ header h3 {
     margin-top: 5px;
 }
 
-/* Section Styling */
+
 section {
     padding: 40px;
 }
 
-/* Image Styling */
+
 img {
     width: 100%;
     max-width: 400px;
@@ -42,14 +42,14 @@ img {
     margin: 10px;
 }
 
-/* Travel Images */
+
 .travel-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/* About Me Section */
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@ img {
     text-align: left;
 }
 
-/* Places Section */
+
 .places-links {
     display: flex;
     flex-wrap: wrap;
@@ -81,17 +81,17 @@ img {
     transform: scale(1.1);
 }
 
-/* Follow Me Section */
+
 .content {
     margin: 50px 0;
 }
 
-/* Footer Section */
+
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #c7b7b7; /* Keeps footer dark for contrast */
+    background-color: #c7b7b7; 
     padding: 15px 0;
 }
 
